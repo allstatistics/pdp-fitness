@@ -1,0 +1,56 @@
+.journey{
+    color: #fff;
+    padding: 13% 20% 10% 20%;
+    text-align: center;
+}
+.journey h1{
+    font-size: 80px;
+}
+.image-bg{
+    background: url(https://www.southdownsleisure.co.uk/wp-content/uploads/2019/10/Gym-background.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 3%;
+}
+.journey a{
+    text-decoration: underline;
+    color: #fff;
+    transition: 0.2s;
+}
+.journey a:hover{
+    color: #b1b4c3;
+    text-decoration: none;
+}
+.btn-gap{
+    margin-top: 5%;
+}
+.intro-msg{
+    margin: 6% 15% 15% 15%
+}
+.floating-dwyn h5{
+    font-size: 22px;
+}
+.floating-dwyn img{
+    float: right;
+    margin: 0 0 10px 30px;
+}
+.floating-khb h5{
+    font-size: 25px;
+}
+.floating-khb img{
+    float: left;
+    margin: 8px 30px 15px 0;
+}
+.floating-khb{
+    margin-top: 100px;
+}
+.floating-gogs img{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.floating-gogs{
+    margin-top: 100px;
+}

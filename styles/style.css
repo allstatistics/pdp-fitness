@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Dosis&family=Oswald:wght@300&family=Poiret+One&family=Raleway&family=Roboto+Slab&family=Signika&display=swap');
+
+/* font-family: 'Catamaran', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Signika', sans-serif; */
+
+.brand-name {
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 75px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.welcome h1 {
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.sub-text {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 28px;
+    padding: 0 20%;
+    font-weight: 100;
+    color: #000;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn-lg1 {
+    width: 270px;
+    height: auto;
+    font-size: 30px;
+}
+
+.btn-primary-cs{
+    color: white;
+    background-color: #712cf9;
+    transition: 0.1s;
+}
+.btn-primary-cs:hover{
+    color: #fff;
+    background-color: #6528e0;
+}
+.btn-light {
+    width: 400px;
+    height: auto;
+    background-color: rgba(33, 37, 41, 0.09);
+}
+
+.buttons .custom-btn-color {
+    margin-right: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.links p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: underline;
+    color: #585858;
+    transition: 0.3s;
+}
+.links a:hover {
+    color: #000;
+}
+
+.links span {
+    padding: 0 7px;
+}
+
+.nav-link{
+    transition: 0.2s;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.footer-nav{
+    margin-top: 50px;
+    text-align: center;
+}
+.space{
+    margin-right: 50px;
+}

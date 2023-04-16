@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../styles/feedback.css">
+    <title>Feedback || PDP Fitness</title>
+</head>
+<body>
+    <div class="container mt-4 p-5 bg-light text-dark rounded">
+        <h1> <a class="back" href="base.html"><i class="bi bi-arrow-left-short"></i> Back</a></h1>
+        <form action="thanks.html">
+            <div class="static-em mb-3 row">
+                <div class="col">
+                    <label for="inputEmail4" class="form-label">Enter Your Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
+                </div>
+                <div class="col">
+                    <label for="staticEmail" class="col-form-label-sm">Emailing to</label>
+                    <input type="text" readonly class="form-control" id="staticEmail" value="pdpFitness@gmail.com">
+                </div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" required placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Report Your Problem</label>
+              </div>
+              <div class="submitting">
+                  <input type="submit" value="Report" class="btn btn-info">
+              </div>
+        </form>
+    </div>
+</body>
+</html>

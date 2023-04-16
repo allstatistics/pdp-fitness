@@ -1,0 +1,17 @@
+.container h1{
+    margin-bottom: 5%;
+}
+
+.submitting{
+    text-align: end;
+    margin-top: 5%;
+}
+.back {
+    text-decoration: none;
+    color: #5c5757;
+    transition: 0.5s;
+}
+
+.back:hover {
+    color: black;
+}

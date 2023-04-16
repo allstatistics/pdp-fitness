@@ -1,0 +1,54 @@
+.container1 {
+    margin-top: 7%;
+}
+
+.container1 h1 {
+    margin-bottom: 60px;
+}
+.accordion-body{
+    font-size: 18px;
+}
+.khb-img,
+.gogs-img,
+.rck-img,
+.tate-img,
+.usain-img {
+    float: right;
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+.gogs-img,
+.tate-img,
+.usain-img {
+    height: 250px;
+}
+
+.purchasing {
+    margin-top: 15%;
+    font-size: 15px;
+}
+
+.container.purchasing table {
+    text-align: center;
+}
+
+.purchasing table tr {
+    border-bottom: 1px solid black;
+}
+
+.purchasing table a {
+    text-decoration: none;
+    color: #333333;
+    transition: 0.4s;
+}
+
+.purchasing table a:hover {
+    color: #1e1e1e;
+    text-decoration: underline;
+}
+
+.purchase{
+    text-align: center;
+}
